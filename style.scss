@@ -5,13 +5,17 @@
 }
 body {
 	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 2fr;
 }
 .right {
-	
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 .left {
-	
-	width: 300px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+
 }
 h1 {
 	justify-content: center;
