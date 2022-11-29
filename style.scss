@@ -8,7 +8,6 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-template-rows: 2fr;
-	
 }
 :root {
 	--title: blue;
@@ -44,29 +43,35 @@ body {
 			margin-bottom: 10px;
 			font-size: 24px;
 		}
-		ul{li{
-			margin-left: 45px;
-		}}
+		ul {
+			li {
+				margin-left: 45px;
+			}
+		}
 	}
 }
 
-.school{
-	h3{
+.school {
+	h3 {
 		margin-top: 15px;
 		margin-bottom: 15px;
 		font-size: 22px;
 	}
 }
-footer{display: grid;
-	grid-area: 1fr;
-	color: var(--footer)
+footer {
 	
+	display: grid;
+	
+	grid-area: 1fr;
+	color: var(--footer);
+
 	border: 1px solid black;
+	border-radius: 8px;
 	margin: 15px;
 }
 .left {
 	grid-column-start: 1;
-	grid-column-end: 2;
+	grid-column-end: 3;
 	margin: 24px;
 
 	.right_total {

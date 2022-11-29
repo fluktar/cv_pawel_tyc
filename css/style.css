@@ -15,6 +15,7 @@ body {
   --title: blue;
   --tittle_company: orange;
   --time_color: rgba(215, 223, 215, 0.87);
+  --footer: rgb(227, 219, 219);
 }
 
 .right {
@@ -58,14 +59,15 @@ body {
 footer {
   display: grid;
   grid-area: 1fr;
-  color: red;
+  color: var(--footer);
   border: 1px solid black;
+  border-radius: 8px;
   margin: 15px;
 }
 
 .left {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   margin: 24px;
 }
 .left .right_total {
